@@ -60,7 +60,6 @@ const createPokemonCard = (pokemon) => {
     pokemonCard.innerHTML = pokemonInnerHTML
 
     container.appendChild(pokemonCard)
-  console.log(colors)
 }
 
 fetch_pokemon()
